@@ -7,14 +7,14 @@
      <!-- CSS files -->
      <link rel="stylesheet" href="/css/global.css">
      <link rel="stylesheet" href="/css/header.css">
-     <link rel="stylesheet" href="/css/footer.css">
+     <link rel="stylesheet" href="/css/main.css">
      <link rel="stylesheet" href="/css/cards.css">
      <link rel="stylesheet" href="/css/section2.css">
      <link rel="stylesheet" href="/css/section3.css">
+     <link rel="stylesheet" href="/css/section4.css">
      <link rel="stylesheet" href="/css/section5.css">
      <link rel="stylesheet" href="/css/section6.css">
-     <link rel="stylesheet" href="/css/about-us-main.css">
-     <link rel="stylesheet" href="/css/accordion.css">
+     <link rel="stylesheet" href="/css/footer.css">
      <link rel="stylesheet" href="/css/scrollToTop.css">
      <link rel="stylesheet" href="/css/pop-up-chat.css">
      <!-- Bootstrap CSS -->
@@ -25,25 +25,25 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
           rel="stylesheet">
-
      <!-- Font awesome -->
      <script src="https://kit.fontawesome.com/fe9ecbf671.js" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-     <title>Our Services</title>
+     <title>HOMCO</title>
      <link rel="icon" type="image/x-icon" href="/pictures/icons8-house-64.png">
 </head>
 
 <body class="page-wrapper">
      <!-- JS files -->
-     <script src="/js/script.js"></script>
      <script src="/js/scrollToTop.js"></script>
      <script src="/js/fullScreenVideo.js"></script>
      <script src="/js/pop-up-chat.js"></script>
+     <script src="/js/form.js"></script>
      <!-- Bootstrap JS and Popper.js -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
      </script>
+
 
      <section class="hero-section">
           <header class="global-padding">
@@ -58,53 +58,56 @@
                     <div class="collapse navbar-collapse nav-items nav-underline" id="navbarNavDropdown">
                          <ul class="navbar-nav ">
                               <li class="nav-item">
-                                   <a href="/html/index.html" class="nav-link">Home</a>
+                                   <a href="index.html"
+                                        class="nav-link border-2 border-bottom border-black">Home</a>
                               </li>
                               <li class="nav-item">
-                                   <a href="/html/about.html" class="nav-link">About us</a>
+                                   <a href="about.html" class="nav-link">About us</a>
                               </li>
                               <li class="nav-item dropdown">
-                                   <a class="nav-link dropdown-toggle" href="/html/projects.html"
+                                   <a class="nav-link dropdown-toggle" href="projects.html"
                                         id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true"
                                         aria-expanded="false">
                                         Our projects
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="/html/projects.html">Our Priority</a>
-                                        <a class="dropdown-item" href="/html/projects.html">Project Cards</a>
-                                        <a class="dropdown-item" href="/html/projects.html">Information</a>
+                                        <a class="dropdown-item" href="projects.html">Our Priority</a>
+                                        <a class="dropdown-item" href="projects.html">Project Cards</a>
+                                        <a class="dropdown-item" href="projects.html">Information</a>
                                    </div>
                               </li>
                               <li class="nav-item">
-                                   <a href="/html/our-services.html"
-                                        class="nav-link border-2 border-bottom border-black">Our services</a>
+                                   <a href="our-services.html" class="nav-link">Our services</a>
                               </li>
                               <li class="nav-item">
-                                   <a href="/html/games.html" class="nav-link">Games</a>
+                                   <a href="games.html" class="nav-link">Games</a>
                               </li>
                          </ul>
                     </div>
                </nav>
           </header>
-          <main class="about-us-main global-padding">
-               <h1>Our services</h1>
-               <p>Whether you're looking for [specific services], our team of experts is here to assist you every step
-                    of the way.
 
-                    Our commitment to excellence, customer satisfaction, and innovation sets us apart. With a focus on
-                    delivering high-quality solutions, we strive to exceed your expectations.</p>
-               <img id="background-img" src="/pictures/background-img.png" alt="background-img">
+          <main class="main global-padding">
+               <div class="row align-items-center">
+                    <div class="col-lg-6 col-md">
+                         <h6 id="welcoming-text">WELCOME TO HOMCO</h6>
+                         <h1 id="main-header">BUILD YOUR ELEGANT DREAM HOME INTERIOR</h1>
+                         <p id="main-text">HOMCO - is your chance to do Ideal Home</p>
+                         <a href="/html/projects.html"><button id="main-btn">Our Projects</button></a>
+                    </div>
+                    <div class="col-lg-4 main-img col-md">
+                         <img src="/pictures/house-interior-main.jpg" alt="house-interior-main-img" class="img-fluid">
+                    </div>
+               </div>
           </main>
-
      </section>
 
-     <section style="position: relative;" class="container-fluid my-5">
-          <div class="cards-services row container-fluid">
+     <section style="position: relative;" class="container-fluid">
+          <div class="cards row container-fluid">
                <div class="col-md-4 col-sm d-flex justify-content-center mb-3">
                     <div class="card-link" id="card1">
                          <h4>HOME DESIGN CONSULTATION</h4>
-                         <p>Explore the possibilities of your dream home with our exclusive Home Design Consultation
-                              service.</p>
+                         <p>Elevate Your Space: Home Design Consultation Services.</p>
                          <a href="#">
                               <i class="fas fa-arrow-right" style="font-size: 60px;"></i>
                          </a>
@@ -113,7 +116,7 @@
                <div class="col-md-4 col-sm d-flex justify-content-center mb-3">
                     <div class="card-link" id="card2">
                          <h4>HOME DESIGN 3D 2D INTERIOR SERVICE</h4>
-                         <p>Step into the realm of innovation with our Home Design 3D 2D Interior Service.</p>
+                         <p>Crafting Your Dream Home: Expert Design Consultations.</p>
                          <a href="#">
                               <i class="fas fa-arrow-right" style="font-size: 60px;"></i>
                          </a>
@@ -122,8 +125,7 @@
                <div class="col-md-4 col-sm d-flex justify-content-center  mb-3">
                     <div class="card-link" id="card3">
                          <h4>HOME DESIGN CONSULTATION</h4>
-                         <p>Unveil a symphony of style and functionality as our expert team collaborates with you to
-                              transform your living spaces.</p>
+                         <p>Unlocking Your Home's Potential: Professional Design Consultation.</p>
                          <a href="#">
                               <i class="fas fa-arrow-right" style="font-size: 60px;"></i>
                          </a>
@@ -132,7 +134,109 @@
           </div>
      </section>
 
-     <section class="container-fluid my-5">
+     <section class="section2 container-fluid">
+          <div class="row global-padding">
+               <div class="section2-img col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-dark">
+                         <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                   class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                   aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                   aria-label="Slide 3"></button>
+                         </div>
+                         <div class="carousel-inner d-flex text-center">
+                              <div class="carousel-item active">
+                                   <div class="carousel-item-container">
+                                        <img src="/pictures/luxury-home-design-on-budget.jpg" alt="img"
+                                             class="img-fluid mb-0">
+                                        <img src="/pictures/house.jpg" alt="img" class="img-fluid">
+                                   </div>
+                              </div>
+                              <div class="carousel-item">
+                                   <div class="carousel-item-container">
+                                        <img src="/pictures/house1.jpg" alt="img" class="img-fluid mb-0">
+                                        <img src="/pictures/house2.jpg" alt="img" class="img-fluid">
+                                   </div>
+                              </div>
+                              <div class="carousel-item">
+                                   <div class="carousel-item-container">
+                                        <img src="/pictures/house.jpg" alt="img" class="img-fluid mb-0">
+                                        <img src="/pictures/house4.jpg" alt="img" class="img-fluid">
+                                   </div>
+                              </div>
+                         </div>
+                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                              data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                         </button>
+                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                              data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                         </button>
+                    </div>
+
+               </div>
+               <div class="col-md-6 section-content">
+                    <h6 id="section2-h6">Who we are</h6>
+                    <h2 id="section2-h2">WE ARE PERFECT TEAM FOR HOME INTERIOR DECORATION</h2>
+                    <p id="section2-text">Welcome to our world of impeccable home interior decoration, where creativity
+                         meets functionality, and every detail is a brushstroke in the canvas of your unique space. At
+                         HOMCO, we pride ourselves on being the perfect team to transform your house into a haven.</p>
+                    <div class="cons">
+                         <div class="group-cons">
+                              <div class="icon-con">
+                                   <i class="fas fa-check" style="font-size: 24px;"></i>
+                                   <p>Flexible time</p>
+                              </div>
+                              <div class="icon-con">
+                                   <i class="fas fa-check" style="font-size: 24px;"></i>
+                                   <p>Perfect work</p>
+                              </div>
+                              <div class="icon-con">
+                                   <i class="fas fa-check" style="font-size: 24px;"></i>
+                                   <p>Adaptable way</p>
+                              </div>
+                         </div>
+                         <div class="group-cons">
+                              <div>
+                                   <div class="icon-con">
+                                        <i class="fas fa-check" style="font-size: 24px;"></i>
+                                        <p>Client Priority</p>
+                                   </div>
+                                   <div class="icon-con">
+                                        <i class="fas fa-check" style="font-size: 24px;"></i>
+                                        <p>Bespoke design</p>
+                                   </div>
+                                   <div class="icon-con">
+                                        <i class="fas fa-check" style="font-size: 24px;"></i>
+                                        <p>Elegance</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="main-cons row">
+                         <div class="main-cons-card col-md-4">
+                              <h2 class="main-cons-header">15Y</h2>
+                              <p class="main-cons-text">Experience</p>
+                         </div>
+                         <div class="main-cons-card col-md-4">
+                              <h2 class="main-cons-header">25+</h2>
+                              <p class="main-cons-text">Best team</p>
+                         </div>
+                         <div class="main-cons-card col-md-4">
+                              <h2 class="main-cons-header">500+</h2>
+                              <p class="main-cons-text">Total Client</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <section class="container-fluid">
           <div class="section3 global-padding">
                <h6 id="section3-h6">How We Work</h6>
                <h2 id="section3-header">OUR WORK PROCEDURE</h2>
@@ -142,9 +246,8 @@
                               <i class="fas fa-envelope" style="font-size: 50px; margin-bottom: 30px;
                               padding: 30px 0 0 30px;"></i>
                               <h4>CLIENT DESIGN CONSULTATION</h4>
-                              <p>Embark on a personalized design journey with our client consultation services. We delve
-                                   deep into your preferences, lifestyle, and aspirations to create a tailored design
-                                   plan that reflects your unique vision.</p>
+                              <p>Join to HOMCO in the pursuit of extraordinary interiors, where every consultation is a
+                                   step towards realizing your dream home.</p>
                          </div>
                     </div>
                     <div class="col">
@@ -152,8 +255,9 @@
                               <i class="fas fa-pen-ruler" style="font-size: 50px; margin-bottom: 30px;
                               padding: 30px 0 0 30px;"></i>
                               <h4>PROTOTYPING HOME DESIGN</h4>
-                              <p>We bring concepts to life through detailed sketches, 3D models, and interactive
-                                   presentations, allowing you to visualize every nuance of your future home.</p>
+                              <p>At Homco, we redefine the possibilities of home interiors through innovative
+                                   prototyping. Our design process transcends allowing you to witness your dream space.
+                              </p>
                          </div>
                     </div>
                     <div class="col">
@@ -161,19 +265,41 @@
                               <i class="fas fa-home" style="font-size: 50px; margin-bottom: 30px;
                               padding: 30px 0 0 30px;"></i>
                               <h4>PROCESSING TO DESIGN HOME</h4>
-                              <p>Our skilled team employs cutting-edge technologies and time-tested techniques to bring
-                                   your vision to fruition.</p>
+                              <p>We can make a plan for your home design, our processes are quickly and convenient
+                                   schedule.</p>
                          </div>
                     </div>
                </div>
           </div>
      </section>
 
+     <section class="container-fluid">
+          <div class="section4 global-padding">
+               <div class="row align-items-center section4">
+                    <div class="col-lg-6 col-md col-sm">
+                         <h6 id="section4-h6">Perfect Partner</h6>
+                         <h2 id="section4-header">WE HAVE PRIORITY FOR CAN CREATE DREAM HOME DESIGN</h2>
+                         <p id="section4-text">Immerse yourself in the extraordinary as Homco combines cutting-edge
+                              technology with artistic flair, creating prototypes that serve as the blueprint for your
+                              ideal home.</p>
+                         <button id="main-btn">Portfolio</button>
+                    </div>
+                    <div class="interior-imgs col-lg-6 col-md col-sm">
+                         <div class="interior-img" id="interior1">
+                              <img src="/pictures/section4-interior1.jpg" alt="section4-interior1" class="img-fluid">
+                         </div>
+                         <div class="interior-img" id="interior2">
+                              <img src="/pictures/section4-interior2.png" alt="section4-interior2" class="img-fluid">
+                         </div>
+                         <div class="interior-img" id="interior3">
+                              <img src="/pictures/section4-interior3.jpg" alt="section4-interior3" class="img-fluid">
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
 
-     <div style="height: 1px; background-color: #000; width: 92%;" class="container-fluid my-5"></div>
-
-     <section class="container-fluid my-5">
-
+     <section class="container-fluid">
           <div class="section5 global-padding d-flex justify-content-between">
                <div class="row">
                     <div class="col-lg-6 col-md col-sm">
@@ -182,80 +308,50 @@
                                    <source src="/pictures/57 Glenmorgan Street, Brunswick East.mp4" type="video/mp4">
                                    Your browser does not support the video tag.
                               </video>
+                              <button id="toggleFullScreen">Full Screen</button>
                          </div>
                     </div>
                     <div class="section5-text col-lg-6 col-md col-sm">
-                         <h6>Trust us now</h6>
-                         <h2>WHY CHOOSE OUR HOME DESIGN INTERIOR SERVICES?</h2>
-                         <p>Our team of skilled interior designers offers a personalized approach to meet your unique
-                              needs and preferences. We understand that every space is distinct, and our expertise lies
-                              in crafting designs that reflect your individual style, ensuring a home that truly feels
-                              like yours.</p>
+                         <h6>Design Consultation</h6>
+                         <h2>HOME DESIGN CONSULTATION SERVICES</h2>
+                         <p>Experience the future of home design with Homco - where prototyping paves the way for
+                              unparalleled perfection.</p>
                          <div class="cons">
-                              <div class="group-cons d-flex flex-row">
-                                   <div class="icon-con mx-3">
+                              <div class="group-cons">
+                                   <div class="icon-con">
                                         <i class="fas fa-check" style="font-size: 24px;"></i>
-                                        <p>Flexible time</p>
+                                        <p>Prebuild Home</p>
                                    </div>
-                                   <div class="icon-con mx-3">
+                                   <div class="icon-con">
                                         <i class="fas fa-check" style="font-size: 24px;"></i>
-                                        <p>Perfect work</p>
+                                        <p>Home Design Planning</p>
                                    </div>
-                                   <div class="icon-con mx-3">
+                                   <div class="icon-con">
                                         <i class="fas fa-check" style="font-size: 24px;"></i>
-                                        <p>Client Priority</p>
+                                        <p>Trend Home Design</p>
                                    </div>
                               </div>
-
-                         </div>
-                    </div>
-
-               </div>
-
-          </div>
-     </section>
-
-     <div style="height: 1px; background-color: #000; width: 92%;" class="container-fluid my-5"></div>
-
-     <section class="container-fluid my-5">
-          <div class="section5 global-padding d-flex justify-content-between">
-               <div class="row">
-                    <div class="section5-text col-lg-6 col-md col-sm">
-                         <h6>Trust us now</h6>
-                         <h2>Why should you entrust your home design interior services to us?</h2>
-                         <p>Choose our home design interior services for a tailored, quality experience. Our expert team
-                              crafts personalized designs, considering your preferences and lifestyle.</p>
-                         <div class="cons">
-                              <div class="group-cons d-flex flex-row">
-                                   <div class="icon-con mx-3">
-                                        <i class="fas fa-check" style="font-size: 24px;"></i>
-                                        <p>Limited Budget Flexibility</p>
-                                   </div>
-                                   <div class="icon-con mx-3">
-                                        <i class="fas fa-check" style="font-size: 24px;"></i>
-                                        <p>Time Constraints:</p>
-                                   </div>
-                                   <div class="icon-con mx-3">
-                                        <i class="fas fa-check" style="font-size: 24px;"></i>
-                                        <p>Subjective Design Preferences</p>
+                              <div class="group-cons">
+                                   <div>
+                                        <div class="icon-con">
+                                             <i class="fas fa-check" style="font-size: 24px;"></i>
+                                             <p>Flexible time</p>
+                                        </div>
+                                        <div class="icon-con">
+                                             <i class="fas fa-check" style="font-size: 24px;"></i>
+                                             <p>Perfect work</p>
+                                        </div>
+                                        <div class="icon-con">
+                                             <i class="fas fa-check" style="font-size: 24px;"></i>
+                                             <p>Client Priority</p>
+                                        </div>
                                    </div>
                               </div>
-                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md col-sm">
-                         <div id="video-container">
-                              <video controls width="100%" height="auto">
-                                   <source src="/pictures/57 Glenmorgan Street, Brunswick East.mp4" type="video/mp4">
-                                   Your browser does not support the video tag.
-                              </video>
                          </div>
                     </div>
                </div>
           </div>
      </section>
-
-     <div style="height: 1px; background-color: #000; width: 92%;" class="container-fluid my-5"></div>
-
 
      <section class="container-fluid section6">
           <div class="row align-items-center global-padding">
@@ -286,131 +382,6 @@
                               </div>
                          </div>
                     </div>
-               </div>
-          </div>
-     </section>
-
-     <section class="accordion-container container-fluid my-5 py-5">
-          <div class="global-padding d-flex flex-wrap justify-content-between mx-auto">
-               <div class="col-lg-5 col-md-5 col-sm-12 mb-4">
-                    <img src="/pictures/accordion-img.jpg" alt="accordion-img" class="img-fluid">
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h6 id="accordion-h6">First Question Answer</h6>
-                    <h2 id="accordion-h2">What notable trends are currently gaining popularity on a weekly basis?</h2>
-                    <p id="accordion-text">We stay ahead of design trends weekly, ensuring clients benefit from the
-                         latest innovations and styles.</p>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                         <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                   <button class="accordion-button collapsed btn btn-light" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                        aria-expanded="false" aria-controls="flush-collapseOne">
-                                        What services do you offer?
-                                   </button>
-                              </h2>
-                              <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                   data-bs-parent="#accordionFlushExample">
-                                   <div class="accordion-body">We offer a range of interior design services, including
-                                        home design consultation, 3D and 2D
-                                        interior design, and collaborative design services.</div>
-                              </div>
-                         </div>
-                         <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                   <button class="accordion-button collapsed btn btn-light" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                        aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        How does the design process work?
-                                   </button>
-                              </h2>
-                              <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                   data-bs-parent="#accordionFlushExample">
-                                   <div class="accordion-body">Our design process involves personalized client
-                                        consultations, prototyping home designs through
-                                        sketches and 3D models, and finally, processing the design to bring your vision
-                                        to life.</div>
-                              </div>
-                         </div>
-                         <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                   <button class="accordion-button collapsed btn btn-light" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                        aria-expanded="false" aria-controls="flush-collapseThree">
-                                        Why choose your interior design services?
-                                   </button>
-                              </h2>
-                              <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                   data-bs-parent="#accordionFlushExample">
-                                   <div class="accordion-body">We provide a tailored experience, considering your
-                                        unique needs and preferences. Our team
-                                        prioritizes flexibility, perfect work, and client satisfaction.</div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </section>
-
-     <section class="accordion-container container-fluid my-5 py-5">
-          <div class="global-padding d-flex flex-wrap justify-content-between mx-auto">
-               <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h6 id="accordion-h6">Second Question Answer</h6>
-                    <h2 id="accordion-h2">How do I schedule a home design consultation?</h2>
-                    <p id="accordion-text">Scheduling a home design consultation is easy! Simply visit our website and
-                         navigate to the "Contact Us" page. You can find our contact details there, including phone
-                         numbers and email addresses. Reach out to us, and our friendly team will assist you in setting
-                         up a convenient time for your consultation.</p>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                         <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                   <button class="accordion-button collapsed btn btn-light" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                        aria-expanded="false" aria-controls="flush-collapseOne">
-                                        Do you offer free consultations?
-                                   </button>
-                              </h2>
-                              <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                   data-bs-parent="#accordionFlushExample">
-                                   <div class="accordion-body">Yes, we provide free initial consultations to discuss
-                                        your requirements and explore the
-                                        possibilities for your project.</div>
-                              </div>
-                         </div>
-                         <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                   <button class="accordion-button collapsed btn btn-light" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                        aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        Can I see examples of your previous projects?
-                                   </button>
-                              </h2>
-                              <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                   data-bs-parent="#accordionFlushExample">
-                                   <div class="accordion-body">Absolutely! You can view our portfolio on our website,
-                                        showcasing a variety of completed
-                                        projects and design styles.</div>
-                              </div>
-                         </div>
-                         <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                   <button class="accordion-button collapsed btn btn-light" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                        aria-expanded="false" aria-controls="flush-collapseThree">
-                                        How long does the design process usually take?
-                                   </button>
-                              </h2>
-                              <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                   data-bs-parent="#accordionFlushExample">
-                                   <div class="accordion-body">The duration of the design process depends on the scope
-                                        and complexity of the project. We will
-                                        provide you with a timeline during the initial consultation.</div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-               <div class="col-lg-5 col-md-5 col-sm-12 mb-4">
-                    <img src="/pictures/accordion-img.jpg" alt="accordion-img" class="img-fluid">
                </div>
           </div>
      </section>
@@ -456,23 +427,23 @@
                     <div class="d-flex flex-column footer-nav">
                          <div>
                               <i class="fas fa-arrow-right" style="color: #fff; margin-right: 5px;"></i>
-                              <a href="/html/index.html">Homepage</a>
+                              <a href="index.html">Homepage</a>
                          </div>
                          <div>
                               <i class="fas fa-arrow-right" style="color: #fff; margin-right: 5px;"></i>
-                              <a href="/html/about.html">About Us</a>
+                              <a href="about.html">About Us</a>
                          </div>
                          <div>
                               <i class="fas fa-arrow-right" style="color: #fff; margin-right: 5px;"></i>
-                              <a href="/html/our-services.html">Services</a>
+                              <a href="our-services.html">Services</a>
                          </div>
                          <div>
                               <i class="fas fa-arrow-right" style="color: #fff; margin-right: 5px;"></i>
-                              <a href="/html/projects.html">Project</a>
+                              <a href="projects.html">Project</a>
                          </div>
                          <div>
                               <i class="fas fa-arrow-right" style="color: #fff; margin-right: 5px;"></i>
-                              <a href="/html/games.html">Games</a>
+                              <a href="games.html">Games</a>
                          </div>
                     </div>
                </div>
