@@ -1,0 +1,106 @@
+.section5-text h6 {
+     color: #757575;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 1.19px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+
+.section5-text h2 {
+     color: #1B1717;
+     font-family: 'Poppins';
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 3.15px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+
+}
+
+.section5-text p {
+     color: #6E6E6E;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-bottom: 30px;
+}
+
+video {
+     width: 90%;
+     height: auto;
+     max-width: 100%;
+     margin-bottom: 30px;
+}
+
+#toggleFullScreen {
+     background: #757575;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     cursor: pointer;
+     transition: background 0.3s ease;
+     border-radius: 15px;
+}
+
+#toggleFullScreen:hover {
+     background: #1B1717;
+}
+
+.team-row {
+     overflow: hidden;
+     max-height: 0;
+     transition: max-height 0.5s ease-out;
+}
+
+.team-row.show {
+     max-height: 1500px;
+     transition: max-height 0.5s ease-out;
+}
+
+
+@media (max-width: 500px) {
+
+     .section5-text h2 {
+          font-size: 30px;
+     }
+
+     .section5-text h6 {
+          font-size: 16px;
+     }
+
+     .section5-text p {
+          font-size: 12px;
+     }
+
+     #video-container video {
+          width: 300px;
+          height: auto;
+     }
+}
+
+#contact-us-btn {
+     background: #757575;
+     color: #fff;
+     text-align: center;
+     font-family: 'Poppins';
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+     width: 198px;
+     height: 73px;
+     border: none;
+}

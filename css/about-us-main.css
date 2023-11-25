@@ -1,0 +1,45 @@
+.about-us-main {
+     margin-top: 100px;
+     position: relative;
+}
+
+.about-us-main h1 {
+     color: #fff;
+     font-family: 'Poppins';
+     font-size: 60px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 4.2px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+
+.about-us-main p {
+     color: #fff;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-bottom: 100px;
+     padding-bottom: 100px;
+     width: 50%;
+}
+
+#background-img {
+     position: absolute;
+     left: 50px;
+     bottom: 80px;
+}
+
+
+@media (max-width: 400px) {
+     .about-us-main h1 {
+          font-size: 40px;
+     }
+
+     .about-us-main p {
+          font-size: 14px;
+     }
+}

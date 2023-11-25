@@ -1,0 +1,75 @@
+.section4 {
+     display: flex;
+     align-items: center;
+     position: relative;
+     margin: 100px 0;
+     height: 800px;
+}
+
+#section4-h6 {
+     color: #757575;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 1.19px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+
+#section4-header {
+     color: #1B1717;
+     font-family: 'Poppins';
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 3.15px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+
+#section4-text {
+     color: #6E6E6E;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-bottom: 30px;
+}
+
+
+
+.interior-img {
+     position: absolute;
+}
+
+.interior-img img {
+     width: 541px;
+     height: 350px;
+}
+
+#interior1 {
+     top: 0;
+     right: 0;
+     z-index: -2;
+}
+
+#interior2 {
+     top: 190px;
+     right: 130px;
+     z-index: -1;
+}
+
+#interior3 {
+     bottom: 0;
+     right: 0;
+}
+
+@media (max-width: 1500px) {
+     .interior-imgs {
+          display: none;
+     }
+}

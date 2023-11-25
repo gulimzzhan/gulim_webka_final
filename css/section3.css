@@ -1,0 +1,79 @@
+#section3-h6 {
+     color: #757575;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 1.19px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+
+#section3-header {
+     color: #1B1717;
+     font-family: 'Poppins';
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 3.15px;
+     text-transform: uppercase;
+     margin-bottom: 64px;
+}
+
+.section3-cards {
+     display: flex;
+     justify-content: space-between;
+     
+}
+
+.section3-card {
+     height: 311px;
+     border: 1px solid #DADADA;
+     height: fit-content;
+}
+
+#section3-card2 {
+     background: #757575;
+}
+
+
+.section3-card h4 {
+     color: #1B1717;
+     font-family: 'Poppins';
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 1.75px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+     padding: 0 30px;
+}
+
+.section3-card p {
+     color: #6E6E6E;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     padding: 0 30px 30px 30px;
+}
+
+#section3-card2 h4,
+#section3-card2 p {
+     color: #fff;
+}
+
+
+@media (max-width: 400px) {
+     .section3-card h4, #section3-card h4 {
+          font-size: 18px;
+     }
+
+     .section3-card p, #section3-card p {
+          font-size: 14px;
+     }
+}

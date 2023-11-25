@@ -1,0 +1,129 @@
+.section2 {
+     margin: 300px 0;
+     display: flex;
+}
+
+@media (max-width: 700px) {
+     .section2 {
+          margin: 550px 0 250px 0;
+     }
+}
+
+@media (max-width: 600px) {
+     .section2 {
+          margin: 900px 0 250px 0;
+     }
+}
+
+.section2-img img {
+     margin-bottom: 50px;
+     width: 80%;
+     height: fit-content;
+}
+
+#section2-h6 {
+     color: #757575;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 1.19px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+
+#section2-h2 {
+     color: #1B1717;
+     font-family: 'Poppins';
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 3.15px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+
+#section2-text {
+     color: #6E6E6E;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-bottom: 30px;
+}
+
+.cons {
+     display: flex;
+     justify-content: start;
+     gap: 50px;
+     margin-bottom: 30px;
+}
+
+.icon-con {
+     display: flex;
+     gap: 15px;
+}
+
+.icon-con p {
+     color: #6E6E6E;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+
+.group-cons {
+     flex-direction: column;
+}
+
+.main-cons {
+     display: flex;
+     justify-content: space-between;
+     gap: 0;
+}
+
+
+
+.main-cons-header {
+     color: #757575;
+     text-align: center;
+     font-family: 'Poppins';
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 3.15px;
+     text-transform: uppercase;
+}
+
+.main-cons-text {
+     color: #1B1717;
+     text-align: center;
+     font-family: 'Poppins';
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+}
+
+
+@media (max-width: 500px) {
+     #section2-h6 {
+          font-size: 14px;
+     }
+
+     #section2-h2 {
+          font-size: 30px;
+     }
+
+
+     #section2-text {
+          font-size: 14px;
+     }
+}

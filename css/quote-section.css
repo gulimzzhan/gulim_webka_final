@@ -1,0 +1,42 @@
+.quote-section {
+     background: #757575;
+     padding: 100px 50px;
+}
+
+.call-card {
+     background: #fff;
+}
+
+.quote-section h4 {
+     color: #1B1717;
+     font-family: 'Poppins';
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 1.75px;
+     text-transform: uppercase;
+     padding-left: 30px;
+     margin-bottom: 15px;
+}
+
+.quote-section p {
+     color: #6E6E6E;
+     font-family: 'Poppins';
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     padding: 30px 30px;
+}
+
+.quote-section h1 {
+     color: #fff;
+     font-family: 'Poppins';
+     font-size: 60px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 4.2px;
+     text-transform: uppercase;
+}

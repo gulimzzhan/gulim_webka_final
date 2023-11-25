@@ -1,0 +1,39 @@
+header {
+     background: #959595;
+}
+
+.navbar-brand img {
+     width: auto;
+     height: 40px;
+     margin-right: 20px;
+}
+
+.nav-item a {
+     text-align: center;
+     font-family: 'Poppins';
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+     padding: 15px;
+     text-decoration: none;
+     position: relative;
+}
+
+.nav-items {
+     margin: 0;
+}
+
+.hero-section {
+     background-color: #959595;
+}
+
+
+@media (max-width: 1300px) {
+     .nav-item a {
+          margin: 0 ;
+     }
+}
+

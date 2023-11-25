@@ -1,0 +1,29 @@
+*::-webkit-scrollbar {
+     width: 0;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+
+body {
+     max-width: 1536px;
+}
+
+.global-padding {
+     margin: 0;
+     padding: 0 50px;
+}
+
+.page-wrapper {
+     max-width: 1536px;
+     margin: 0 auto;
+}
+
+i {
+     text-decoration: none;
+     color: black;
+}
